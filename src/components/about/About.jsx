@@ -23,7 +23,7 @@ const about = () => {
                                                     j'ai appris, je suis à la recherche d'une alternance pour
                                                     l'année scolaire 2023/2024.
                 </p>
-                <a download="" href={CV} className="button button--flex">Telecharger
+                <a download="" href={CV} className="button button--flex">Telecharger mon CV
                 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
