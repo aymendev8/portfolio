@@ -1,6 +1,25 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const info = () => {
+  function GithubRepoCount() {
+    const [repoCount, setRepoCount] = useState(null);
+  
+    fetch(`https://api.github.com/users/aymendev8/repos`)
+      .then(response => response.json())
+      .then(data => {
+        setRepoCount(data.length);
+      });
+  
+    return (
+      <div>
+        {repoCount !== null ? (
+           <span className="about__subtitle">{repoCount} repos Github</span>
+        ) : (
+          <span>Chargement...</span>
+        )}
+      </div>
+    );
+  }  
   return (
     <div className="about__info grid">
         <div className="about__box">
@@ -11,7 +30,7 @@ const info = () => {
         <div className="about__box">
             <i class="uil uil-check-circle"></i>
             <h3 className="about__title">Accomplis</h3>
-            <span className="about__subtitle">10 + Projets</span>
+            {GithubRepoCount()}
         </div>
         <div className="about__box">
             <i class="uil uil-calendar-alt"></i>
