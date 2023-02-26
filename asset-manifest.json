@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.32919028.css",
-    "main.js": "/portfolio/static/js/main.b77a1362.js",
-    "static/media/aymenkadri-CV.pdf": "/portfolio/static/media/aymenkadri-CV.45f6d621d67d77e0ef03.pdf",
-    "static/media/pp.jpg": "/portfolio/static/media/pp.bb29beda53326122ffc5.jpg",
-    "static/media/pp_2.jpg": "/portfolio/static/media/pp_2.18f2a45e26c71e0c43c0.jpg",
-    "index.html": "/portfolio/index.html",
-    "main.32919028.css.map": "/portfolio/static/css/main.32919028.css.map",
-    "main.b77a1362.js.map": "/portfolio/static/js/main.b77a1362.js.map"
+    "main.css": "static/css/main.32919028.css",
+    "main.js": "static/js/main.b77a1362.js",
+    "static/media/aymenkadri-CV.pdf": "static/media/aymenkadri-CV.45f6d621d67d77e0ef03.pdf",
+    "static/media/pp.jpg": "static/media/pp.bb29beda53326122ffc5.jpg",
+    "static/media/pp_2.jpg": "static/media/pp_2.18f2a45e26c71e0c43c0.jpg",
+    "index.html": "index.html",
+    "main.32919028.css.map": "static/css/main.32919028.css.map",
+    "main.b77a1362.js.map": "static/js/main.b77a1362.js.map"
   },
   "entrypoints": [
     "static/css/main.32919028.css",
