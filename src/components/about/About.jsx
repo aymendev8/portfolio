@@ -10,7 +10,7 @@ const about = () => {
         <h2 className="section__title">Qui suis-je ?</h2>
         <span className="section__subtitle">Présentation</span>
         <div className="about__container container grid">
-            <img src={AboutImg} alt="ma photo " className="about__img"/>
+            <img src={AboutImg} alt="aymen" className="about__img"/>
             <div className="about_data">
                 <Info />
                 <p className="about__description"> Je suis actuellement étudiant en informatique et je suis une
@@ -25,7 +25,7 @@ const about = () => {
                 </p>
                 <a download="" href={CV} className="button button--flex">Telecharger mon CV
                 <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
